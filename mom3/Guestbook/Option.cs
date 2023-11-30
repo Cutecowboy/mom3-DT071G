@@ -19,8 +19,18 @@ partial class Program
             {
                 // clear the terminal
                 Clear();
-                // informational text for user prompts
-                WriteLine("N A V I D ' S\t G U E S T B O O K\n\n1. Write in the guestbook\n2. Remove post\nX. Exit\n");
+                // check if any entries exists
+                if (guestbook.entries.Count > 0)
+                {
+                    // informational text for user prompts, option 2 is enabled
+                    WriteLine("N A V I D ' S\t G U E S T B O O K\n\n1. Write in the guestbook\n2. Remove post\nX. Exit\n");
+                }
+                else
+                {
+                    // informational text for user prompts, option 2 is disabled
+                    WriteLine("N A V I D ' S\t G U E S T B O O K\n\n1. Write in the guestbook\nX. Exit\n");
+                }
+
                 // print out the current posts in the json file
                 WriteLine(guestbook.PrintPosts());
                 // check the users prompt
@@ -40,8 +50,8 @@ partial class Program
                     // addPost method
                     guestbook.AddPost();
                 }
-                // if enter option 2 
-                else if (userInp == "2")
+                // if enter option 2 and there are entries, if no entries, Option2 is disabled
+                else if (userInp == "2" && guestbook.entries.Count > 0)
                 {
                     Option2();
                 }
@@ -106,8 +116,18 @@ partial class Program
             {
                 // if valid int, try deleting the id given
                 guestbook.DeletePost(id);
-                // back to the menu
-                Option2();
+                // check if guestbook entries is empty
+                if (guestbook.entries.Count == 0)
+                {
+                    // if empty, redirect to main menu
+                    Menu();
+                }
+                else
+                {
+                    // back to the deletion menu
+                    Option2();
+                }
+
             }
             else
             {

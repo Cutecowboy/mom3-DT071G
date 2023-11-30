@@ -213,9 +213,6 @@ public class Guestbook
             // if the entry iterations id is equals to the inputted id
             if (id == entries[i].Id)
             {
-                WriteLine(entries[i]);
-                WriteLine(i);
-
                 // remove the entry based on the index
                 entries.RemoveAt(i);
                 // set the dummy variable to true
