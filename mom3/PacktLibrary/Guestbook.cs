@@ -241,31 +241,23 @@ public class Guestbook
     }
 
     /// <summary>
-    /// Prints all the posts in the JSON file in a decent format
+    /// Prints all the posts in the entries
     /// </summary>
     /// <returns>A string of all posts which can be printed via WriteLine()</returns>
     public string PrintPosts()
     {
-        // create a new list
-        List<Entries> currentEntries = [];
-        // initialize with empty string
+        // declare an empty string
         string messageString = "";
-        // get JSON data
-        string jsonContent = File.ReadAllText("book.json");
-
-        // check if the JSON data has any data
-        if (jsonContent.Length == 0)
+        // check if entries has any post
+        if (entries.Count == 0)
         {
             // inform user about no posts 
             messageString = "There are no posts in the guestbook!";
         }
         else // if posts exists
         {
-            // insert to currentEntries
-            currentEntries = JsonSerializer.Deserialize<List<Entries>>(jsonContent)!;
-
             // loop through all the entries
-            foreach (Entries c in currentEntries)
+            foreach (Entries c in entries)
             {
                 // and add the id, name and content of the post to the string
                 messageString += $"[{c.Id}] {c.Name}  -  {c.Message}\n";
