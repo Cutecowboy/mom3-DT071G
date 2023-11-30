@@ -181,10 +181,20 @@ public class Guestbook
     /// </summary>
     public void Save()
     {
-        // Serialize the entries
-        string json = JsonSerializer.Serialize(entries);
-        // write the json data to the json file
-        File.WriteAllText("book.json", json);
+        // if no entries, reduce bugs by replacing empty array with empty string
+        if (entries.Count == 0)
+        {
+            // empty string instead of []
+            File.WriteAllText("book.json", "");
+        }
+        else
+        {
+            // Serialize the entries
+            string json = JsonSerializer.Serialize(entries);
+            // write the json data to the json file
+            File.WriteAllText("book.json", json);
+        }
+
     }
 
     /// <summary>
@@ -193,53 +203,46 @@ public class Guestbook
     /// <param name="id">The id value of the post that you want to delete</param>
     public void DeletePost(int id)
     {
-        // create a new list
-        List<Entries> currentEntries = [];
-        // create a secondary new list to store entries after "deletion"
-        List<Entries> holdEntries = [];
 
-        // get JSON data
-        string jsonContent = File.ReadAllText("book.json");
-        // insert to currentEntries
-        currentEntries = JsonSerializer.Deserialize<List<Entries>>(jsonContent)!;
+        // declare a dummy variable
+        bool dummy = false;
 
-        // loop through all the entries 
-        foreach (Entries c in currentEntries)
+        // loop through all entries
+        for (int i = 0; i < entries.Count; i++)
         {
-            // condition to include all id's that were not given by the user 
-            if (id != c.Id)
+            // if the entry iterations id is equals to the inputted id
+            if (id == entries[i].Id)
             {
-                // append/add object to the holdEntries list
-                holdEntries.Add(c);
+                WriteLine(entries[i]);
+                WriteLine(i);
+
+                // remove the entry based on the index
+                entries.RemoveAt(i);
+                // set the dummy variable to true
+                dummy = true;
             }
-
-
         }
 
-        // control whether a post was removed by checking the counts, if old count > new count successful deletion
-        if (currentEntries.Count > holdEntries.Count)
+
+        // if dummy is true == entry has been removed
+        if (dummy)
         {
-            // store the new entries in the entries object
-            entries = holdEntries;
-
-            // save the new entries on JSON file
+            // save the new entry list
             Save();
-            // write success message
+            // clear console
             Clear();
-
+            // write success message
             WriteLine($"Post id: {id} is now removed, press any key to continue!");
             ReadKey();
         }
-        else // if no posts where removed
+        else // if nothing was removed
         {
-            // write error message
+            // clear console
             Clear();
-
+            // error message
             WriteLine($"Post id: {id} was not found, press any key to continue!");
             ReadKey();
-
         }
-
 
 
     }
