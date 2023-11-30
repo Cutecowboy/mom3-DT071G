@@ -20,17 +20,13 @@ public class Guestbook
         // check if JSON file exists
         if (File.Exists("book.json"))
         {
-            WriteLine("File exists!");
             // read the JSON data
             string jsonData = File.ReadAllText("book.json");
-            WriteLine(string.IsNullOrEmpty(jsonData));
             // check that the json file (string) that it is not empty 
             if (!string.IsNullOrEmpty(jsonData))
             {
                 // store the JSON data deserialize already checked to not me null or empty
                 entries = JsonSerializer.Deserialize<List<Entries>>(jsonData)!;
-                WriteLine(entries[0]);
-                WriteLine(entries.Count());
             }
 
         }
