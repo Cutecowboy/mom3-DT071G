@@ -16,3 +16,22 @@ C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3\Guestbook\obj\Debug\net8.
 C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3\Guestbook\obj\Debug\net8.0\Guestbook.pdb
 C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3\Guestbook\obj\Debug\net8.0\Guestbook.genruntimeconfig.cache
 C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3\Guestbook\obj\Debug\net8.0\ref\Guestbook.dll
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\bin\Debug\net8.0\Guestbook.exe
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\bin\Debug\net8.0\Guestbook.deps.json
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\bin\Debug\net8.0\Guestbook.runtimeconfig.json
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\bin\Debug\net8.0\Guestbook.dll
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\bin\Debug\net8.0\Guestbook.pdb
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\bin\Debug\net8.0\PacktLibrary.dll
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\bin\Debug\net8.0\PacktLibrary.pdb
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.csproj.AssemblyReference.cache
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.AssemblyInfoInputs.cache
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.AssemblyInfo.cs
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.csproj.CoreCompileInputs.cache
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.sourcelink.json
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.csproj.CopyComplete
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.dll
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\refint\Guestbook.dll
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.pdb
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\Guestbook.genruntimeconfig.cache
+C:\Users\navgh2\Desktop\test2\xampp\htdocs\DT071G\mom3 - git\mom3\Guestbook\obj\Debug\net8.0\ref\Guestbook.dll

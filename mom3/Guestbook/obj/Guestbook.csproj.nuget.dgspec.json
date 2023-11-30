@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\Guestbook\\Guestbook.csproj": {}
+    "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\Guestbook\\Guestbook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\Guestbook\\Guestbook.csproj": {
+    "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\Guestbook\\Guestbook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\Guestbook\\Guestbook.csproj",
+        "projectUniqueName": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\Guestbook\\Guestbook.csproj",
         "projectName": "Guestbook",
-        "projectPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\Guestbook\\Guestbook.csproj",
+        "projectPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\Guestbook\\Guestbook.csproj",
         "packagesPath": "C:\\Users\\navgh2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\Guestbook\\obj\\",
+        "outputPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\Guestbook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\navgh2\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\PacktLibrary\\PacktLibrary.csproj": {
-                "projectPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\PacktLibrary\\PacktLibrary.csproj"
+              "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\PacktLibrary\\PacktLibrary.csproj": {
+                "projectPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\PacktLibrary\\PacktLibrary.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\PacktLibrary\\PacktLibrary.csproj": {
+    "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\PacktLibrary\\PacktLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\PacktLibrary\\PacktLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\PacktLibrary\\PacktLibrary.csproj",
         "projectName": "PacktLibrary",
-        "projectPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\PacktLibrary\\PacktLibrary.csproj",
+        "projectPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\PacktLibrary\\PacktLibrary.csproj",
         "packagesPath": "C:\\Users\\navgh2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3\\PacktLibrary\\obj\\",
+        "outputPath": "C:\\Users\\navgh2\\Desktop\\test2\\xampp\\htdocs\\DT071G\\mom3 - git\\mom3\\PacktLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\navgh2\\AppData\\Roaming\\NuGet\\NuGet.Config"
